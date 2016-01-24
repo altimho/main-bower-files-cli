@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var mainBowerFiles = require('main-bower-files');
+
+mainBowerFiles(function (err, mainFiles) {
+  process.stdout.write(mainFiles.join('\n'));
+});
+
