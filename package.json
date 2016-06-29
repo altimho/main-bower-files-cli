@@ -1,14 +1,11 @@
 {
-  "name": "main-bower-files-cli",
-  "version": "0.1.0",
+  "name": "@altimho/main-bower-files-cli",
+  "version": "1.0.0",
   "description": "CLI runner for main-bower-files.",
   "keywords": [
     "bower"
   ],
   "bin": "./bin/main-bower-files-cli",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/altimho/main-bower-files-cli.git"
